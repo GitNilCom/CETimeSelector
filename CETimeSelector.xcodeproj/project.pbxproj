@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24AEAA50247BC89800DE388D /* CETimePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AEAA4C247BC89800DE388D /* CETimePickView.m */; };
+		24AEAA51247BC89800DE388D /* UIView+CETimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AEAA4F247BC89800DE388D /* UIView+CETimeCategory.m */; };
 		24BBC09524776F6C000FB10A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC09424776F6C000FB10A /* AppDelegate.m */; };
 		24BBC09824776F6C000FB10A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC09724776F6C000FB10A /* SceneDelegate.m */; };
 		24BBC09B24776F6C000FB10A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC09A24776F6C000FB10A /* ViewController.m */; };
@@ -26,8 +28,6 @@
 		24BBC0F0247770FB000FB10A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E5247770FB000FB10A /* MASConstraint.m */; };
 		24BBC0F1247770FB000FB10A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E7247770FB000FB10A /* MASViewConstraint.m */; };
 		24BBC0F2247770FB000FB10A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E8247770FB000FB10A /* MASViewAttribute.m */; };
-		24BBC11024777D33000FB10A /* CETimePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC10F24777D33000FB10A /* CETimePickView.m */; };
-		24BBC11324777F17000FB10A /* UIView+CETimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC11224777F17000FB10A /* UIView+CETimeCategory.m */; };
 		24BBC11724778125000FB10A /* NSArray+CEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC11624778125000FB10A /* NSArray+CEExtension.m */; };
 		24BBC11A2477814C000FB10A /* NSDictionary+CEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC1192477814C000FB10A /* NSDictionary+CEExtension.m */; };
 /* End PBXBuildFile section */
@@ -50,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24AEAA4C247BC89800DE388D /* CETimePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CETimePickView.m; sourceTree = "<group>"; };
+		24AEAA4D247BC89800DE388D /* UIView+CETimeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CETimeCategory.h"; sourceTree = "<group>"; };
+		24AEAA4E247BC89800DE388D /* CETimePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CETimePickView.h; sourceTree = "<group>"; };
+		24AEAA4F247BC89800DE388D /* UIView+CETimeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CETimeCategory.m"; sourceTree = "<group>"; };
 		24BBC09024776F6C000FB10A /* CETimeSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CETimeSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BBC09324776F6C000FB10A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24BBC09424776F6C000FB10A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,10 +97,6 @@
 		24BBC0E6247770FB000FB10A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		24BBC0E7247770FB000FB10A /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		24BBC0E8247770FB000FB10A /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		24BBC10E24777D33000FB10A /* CETimePickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CETimePickView.h; sourceTree = "<group>"; };
-		24BBC10F24777D33000FB10A /* CETimePickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CETimePickView.m; sourceTree = "<group>"; };
-		24BBC11124777F17000FB10A /* UIView+CETimeCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CETimeCategory.h"; sourceTree = "<group>"; };
-		24BBC11224777F17000FB10A /* UIView+CETimeCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CETimeCategory.m"; sourceTree = "<group>"; };
 		24BBC11524778125000FB10A /* NSArray+CEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CEExtension.h"; sourceTree = "<group>"; };
 		24BBC11624778125000FB10A /* NSArray+CEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CEExtension.m"; sourceTree = "<group>"; };
 		24BBC1182477814C000FB10A /* NSDictionary+CEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CEExtension.h"; sourceTree = "<group>"; };
@@ -128,6 +128,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24AEAA4B247BC89800DE388D /* CETimePickView */ = {
+			isa = PBXGroup;
+			children = (
+				24AEAA4E247BC89800DE388D /* CETimePickView.h */,
+				24AEAA4C247BC89800DE388D /* CETimePickView.m */,
+				24AEAA4D247BC89800DE388D /* UIView+CETimeCategory.h */,
+				24AEAA4F247BC89800DE388D /* UIView+CETimeCategory.m */,
+			);
+			path = CETimePickView;
+			sourceTree = "<group>";
+		};
 		24BBC08724776F6C000FB10A = {
 			isa = PBXGroup;
 			children = (
@@ -217,17 +228,6 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		24BBC10A24777C7A000FB10A /* CETimePickView */ = {
-			isa = PBXGroup;
-			children = (
-				24BBC10E24777D33000FB10A /* CETimePickView.h */,
-				24BBC10F24777D33000FB10A /* CETimePickView.m */,
-				24BBC11124777F17000FB10A /* UIView+CETimeCategory.h */,
-				24BBC11224777F17000FB10A /* UIView+CETimeCategory.m */,
-			);
-			path = CETimePickView;
-			sourceTree = "<group>";
-		};
 		24BBC114247780B1000FB10A /* CELogEncoding */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,7 +242,7 @@
 		24BBC11B24778473000FB10A /* CustomLib */ = {
 			isa = PBXGroup;
 			children = (
-				24BBC10A24777C7A000FB10A /* CETimePickView */,
+				24AEAA4B247BC89800DE388D /* CETimePickView */,
 				24BBC114247780B1000FB10A /* CELogEncoding */,
 				24BBC0CF247770FB000FB10A /* Masonry */,
 			);
@@ -379,9 +379,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24AEAA50247BC89800DE388D /* CETimePickView.m in Sources */,
 				24BBC0F1247770FB000FB10A /* MASViewConstraint.m in Sources */,
-				24BBC11024777D33000FB10A /* CETimePickView.m in Sources */,
 				24BBC09B24776F6C000FB10A /* ViewController.m in Sources */,
+				24AEAA51247BC89800DE388D /* UIView+CETimeCategory.m in Sources */,
 				24BBC0EC247770FB000FB10A /* MASConstraintMaker.m in Sources */,
 				24BBC09524776F6C000FB10A /* AppDelegate.m in Sources */,
 				24BBC0EA247770FB000FB10A /* ViewController+MASAdditions.m in Sources */,
@@ -389,7 +390,6 @@
 				24BBC0EB247770FB000FB10A /* MASCompositeConstraint.m in Sources */,
 				24BBC0A624776F6F000FB10A /* main.m in Sources */,
 				24BBC0ED247770FB000FB10A /* MASLayoutConstraint.m in Sources */,
-				24BBC11324777F17000FB10A /* UIView+CETimeCategory.m in Sources */,
 				24BBC0EF247770FB000FB10A /* View+MASAdditions.m in Sources */,
 				24BBC0EE247770FB000FB10A /* NSArray+MASAdditions.m in Sources */,
 				24BBC09824776F6C000FB10A /* SceneDelegate.m in Sources */,
@@ -566,12 +566,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMCNUMML9Z;
 				INFOPLIST_FILE = CETimeSelector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelectorDQLP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -582,12 +583,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMCNUMML9Z;
 				INFOPLIST_FILE = CETimeSelector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelectorDQLP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -29,6 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     _button = [[UIButton alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 200)/2, (self.view.frame.size.height - 50)/2, 200, 50)];
     [self.view addSubview:_button];
     _button.backgroundColor = [UIColor cyanColor];

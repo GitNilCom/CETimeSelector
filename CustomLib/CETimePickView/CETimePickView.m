@@ -161,7 +161,31 @@
     }
 }
 
-
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
+    //普通状态的颜色
+   UILabel* norLabel = (UILabel*)view;
+   if (!norLabel){
+       norLabel = [[UILabel alloc] init];
+       norLabel.textColor = [UIColor blackColor];
+       norLabel.adjustsFontSizeToFitWidth = YES;
+       [norLabel setTextAlignment:NSTextAlignmentCenter];
+       [norLabel setBackgroundColor:[UIColor grayColor]];
+       [norLabel setFont:[UIFont systemFontOfSize:13]];
+   }
+   norLabel.text = [self pickerView:pickerView
+                           titleForRow:row
+                          forComponent:component];
+   //当前选中的颜色
+   UILabel *selLb = (UILabel*)[pickerView viewForRow:row forComponent:0];
+   if (selLb) {
+       selLb.textColor = [UIColor blackColor];
+       selLb.adjustsFontSizeToFitWidth = YES;
+       [selLb setTextAlignment:NSTextAlignmentCenter];
+       [selLb setBackgroundColor:[UIColor grayColor]];
+       [selLb setFont:[UIFont systemFontOfSize:16]];
+   }
+   return norLabel;
+}
 
 #pragma mark - getter methods
 
@@ -185,7 +209,6 @@
         [_confirmBtn addTarget:self action:@selector(confirmAction:) forControlEvents:UIControlEventTouchUpInside];
         _confirmBtn.titleLabel.font = [UIFont systemFontOfSize:14];
         [_confirmBtn sizeToFit];
-        
     }
     return _confirmBtn;
 }
