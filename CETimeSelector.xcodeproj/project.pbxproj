@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24BBC09524776F6C000FB10A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC09424776F6C000FB10A /* AppDelegate.m */; };
+		24BBC09824776F6C000FB10A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC09724776F6C000FB10A /* SceneDelegate.m */; };
+		24BBC09B24776F6C000FB10A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC09A24776F6C000FB10A /* ViewController.m */; };
+		24BBC09E24776F6C000FB10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BBC09C24776F6C000FB10A /* Main.storyboard */; };
+		24BBC0A024776F6F000FB10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BBC09F24776F6F000FB10A /* Assets.xcassets */; };
+		24BBC0A324776F6F000FB10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BBC0A124776F6F000FB10A /* LaunchScreen.storyboard */; };
+		24BBC0A624776F6F000FB10A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0A524776F6F000FB10A /* main.m */; };
+		24BBC0B024776F70000FB10A /* CETimeSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0AF24776F70000FB10A /* CETimeSelectorTests.m */; };
+		24BBC0BB24776F70000FB10A /* CETimeSelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0BA24776F70000FB10A /* CETimeSelectorUITests.m */; };
+		24BBC0E9247770FB000FB10A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0D1247770FB000FB10A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		24BBC0EA247770FB000FB10A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0DA247770FB000FB10A /* ViewController+MASAdditions.m */; };
+		24BBC0EB247770FB000FB10A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0DE247770FB000FB10A /* MASCompositeConstraint.m */; };
+		24BBC0EC247770FB000FB10A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0DF247770FB000FB10A /* MASConstraintMaker.m */; };
+		24BBC0ED247770FB000FB10A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E0247770FB000FB10A /* MASLayoutConstraint.m */; };
+		24BBC0EE247770FB000FB10A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E1247770FB000FB10A /* NSArray+MASAdditions.m */; };
+		24BBC0EF247770FB000FB10A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E2247770FB000FB10A /* View+MASAdditions.m */; };
+		24BBC0F0247770FB000FB10A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E5247770FB000FB10A /* MASConstraint.m */; };
+		24BBC0F1247770FB000FB10A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E7247770FB000FB10A /* MASViewConstraint.m */; };
+		24BBC0F2247770FB000FB10A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E8247770FB000FB10A /* MASViewAttribute.m */; };
+		24BBC11024777D33000FB10A /* CETimePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC10F24777D33000FB10A /* CETimePickView.m */; };
+		24BBC11324777F17000FB10A /* UIView+CETimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC11224777F17000FB10A /* UIView+CETimeCategory.m */; };
+		24BBC11724778125000FB10A /* NSArray+CEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC11624778125000FB10A /* NSArray+CEExtension.m */; };
+		24BBC11A2477814C000FB10A /* NSDictionary+CEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC1192477814C000FB10A /* NSDictionary+CEExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24BBC0AC24776F70000FB10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24BBC08824776F6C000FB10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BBC08F24776F6C000FB10A;
+			remoteInfo = CETimeSelector;
+		};
+		24BBC0B724776F70000FB10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24BBC08824776F6C000FB10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BBC08F24776F6C000FB10A;
+			remoteInfo = CETimeSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24BBC09024776F6C000FB10A /* CETimeSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CETimeSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BBC09324776F6C000FB10A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24BBC09424776F6C000FB10A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24BBC09624776F6C000FB10A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		24BBC09724776F6C000FB10A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		24BBC09924776F6C000FB10A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24BBC09A24776F6C000FB10A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24BBC09D24776F6C000FB10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24BBC09F24776F6F000FB10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24BBC0A224776F6F000FB10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24BBC0A424776F6F000FB10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BBC0A524776F6F000FB10A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24BBC0AB24776F70000FB10A /* CETimeSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CETimeSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BBC0AF24776F70000FB10A /* CETimeSelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CETimeSelectorTests.m; sourceTree = "<group>"; };
+		24BBC0B124776F70000FB10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BBC0B624776F70000FB10A /* CETimeSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CETimeSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BBC0BA24776F70000FB10A /* CETimeSelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CETimeSelectorUITests.m; sourceTree = "<group>"; };
+		24BBC0BC24776F70000FB10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BBC0D0247770FB000FB10A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		24BBC0D1247770FB000FB10A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		24BBC0D2247770FB000FB10A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		24BBC0D3247770FB000FB10A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		24BBC0D4247770FB000FB10A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		24BBC0D5247770FB000FB10A /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		24BBC0D6247770FB000FB10A /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		24BBC0D7247770FB000FB10A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		24BBC0D8247770FB000FB10A /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		24BBC0D9247770FB000FB10A /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		24BBC0DA247770FB000FB10A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		24BBC0DB247770FB000FB10A /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		24BBC0DC247770FB000FB10A /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		24BBC0DD247770FB000FB10A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		24BBC0DE247770FB000FB10A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		24BBC0DF247770FB000FB10A /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		24BBC0E0247770FB000FB10A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		24BBC0E1247770FB000FB10A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		24BBC0E2247770FB000FB10A /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		24BBC0E3247770FB000FB10A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		24BBC0E4247770FB000FB10A /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		24BBC0E5247770FB000FB10A /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		24BBC0E6247770FB000FB10A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		24BBC0E7247770FB000FB10A /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		24BBC0E8247770FB000FB10A /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		24BBC10E24777D33000FB10A /* CETimePickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CETimePickView.h; sourceTree = "<group>"; };
+		24BBC10F24777D33000FB10A /* CETimePickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CETimePickView.m; sourceTree = "<group>"; };
+		24BBC11124777F17000FB10A /* UIView+CETimeCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CETimeCategory.h"; sourceTree = "<group>"; };
+		24BBC11224777F17000FB10A /* UIView+CETimeCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CETimeCategory.m"; sourceTree = "<group>"; };
+		24BBC11524778125000FB10A /* NSArray+CEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CEExtension.h"; sourceTree = "<group>"; };
+		24BBC11624778125000FB10A /* NSArray+CEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CEExtension.m"; sourceTree = "<group>"; };
+		24BBC1182477814C000FB10A /* NSDictionary+CEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CEExtension.h"; sourceTree = "<group>"; };
+		24BBC1192477814C000FB10A /* NSDictionary+CEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CEExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24BBC08D24776F6C000FB10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BBC0A824776F70000FB10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BBC0B324776F70000FB10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24BBC08724776F6C000FB10A = {
+			isa = PBXGroup;
+			children = (
+				24BBC11B24778473000FB10A /* CustomLib */,
+				24BBC09224776F6C000FB10A /* CETimeSelector */,
+				24BBC0AE24776F70000FB10A /* CETimeSelectorTests */,
+				24BBC0B924776F70000FB10A /* CETimeSelectorUITests */,
+				24BBC09124776F6C000FB10A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24BBC09124776F6C000FB10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24BBC09024776F6C000FB10A /* CETimeSelector.app */,
+				24BBC0AB24776F70000FB10A /* CETimeSelectorTests.xctest */,
+				24BBC0B624776F70000FB10A /* CETimeSelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24BBC09224776F6C000FB10A /* CETimeSelector */ = {
+			isa = PBXGroup;
+			children = (
+				24BBC09324776F6C000FB10A /* AppDelegate.h */,
+				24BBC09424776F6C000FB10A /* AppDelegate.m */,
+				24BBC09624776F6C000FB10A /* SceneDelegate.h */,
+				24BBC09724776F6C000FB10A /* SceneDelegate.m */,
+				24BBC09924776F6C000FB10A /* ViewController.h */,
+				24BBC09A24776F6C000FB10A /* ViewController.m */,
+				24BBC09C24776F6C000FB10A /* Main.storyboard */,
+				24BBC09F24776F6F000FB10A /* Assets.xcassets */,
+				24BBC0A124776F6F000FB10A /* LaunchScreen.storyboard */,
+				24BBC0A424776F6F000FB10A /* Info.plist */,
+				24BBC0A524776F6F000FB10A /* main.m */,
+			);
+			path = CETimeSelector;
+			sourceTree = "<group>";
+		};
+		24BBC0AE24776F70000FB10A /* CETimeSelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				24BBC0AF24776F70000FB10A /* CETimeSelectorTests.m */,
+				24BBC0B124776F70000FB10A /* Info.plist */,
+			);
+			path = CETimeSelectorTests;
+			sourceTree = "<group>";
+		};
+		24BBC0B924776F70000FB10A /* CETimeSelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24BBC0BA24776F70000FB10A /* CETimeSelectorUITests.m */,
+				24BBC0BC24776F70000FB10A /* Info.plist */,
+			);
+			path = CETimeSelectorUITests;
+			sourceTree = "<group>";
+		};
+		24BBC0CF247770FB000FB10A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				24BBC0D0247770FB000FB10A /* MASCompositeConstraint.h */,
+				24BBC0D1247770FB000FB10A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				24BBC0D2247770FB000FB10A /* MASConstraint+Private.h */,
+				24BBC0D3247770FB000FB10A /* MASLayoutConstraint.h */,
+				24BBC0D4247770FB000FB10A /* NSArray+MASShorthandAdditions.h */,
+				24BBC0D5247770FB000FB10A /* MASConstraintMaker.h */,
+				24BBC0D6247770FB000FB10A /* View+MASAdditions.h */,
+				24BBC0D7247770FB000FB10A /* NSArray+MASAdditions.h */,
+				24BBC0D8247770FB000FB10A /* MASUtilities.h */,
+				24BBC0D9247770FB000FB10A /* MASViewAttribute.h */,
+				24BBC0DA247770FB000FB10A /* ViewController+MASAdditions.m */,
+				24BBC0DB247770FB000FB10A /* MASViewConstraint.h */,
+				24BBC0DC247770FB000FB10A /* MASConstraint.h */,
+				24BBC0DD247770FB000FB10A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				24BBC0DE247770FB000FB10A /* MASCompositeConstraint.m */,
+				24BBC0DF247770FB000FB10A /* MASConstraintMaker.m */,
+				24BBC0E0247770FB000FB10A /* MASLayoutConstraint.m */,
+				24BBC0E1247770FB000FB10A /* NSArray+MASAdditions.m */,
+				24BBC0E2247770FB000FB10A /* View+MASAdditions.m */,
+				24BBC0E3247770FB000FB10A /* View+MASShorthandAdditions.h */,
+				24BBC0E4247770FB000FB10A /* Masonry.h */,
+				24BBC0E5247770FB000FB10A /* MASConstraint.m */,
+				24BBC0E6247770FB000FB10A /* ViewController+MASAdditions.h */,
+				24BBC0E7247770FB000FB10A /* MASViewConstraint.m */,
+				24BBC0E8247770FB000FB10A /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		24BBC10A24777C7A000FB10A /* CETimePickView */ = {
+			isa = PBXGroup;
+			children = (
+				24BBC10E24777D33000FB10A /* CETimePickView.h */,
+				24BBC10F24777D33000FB10A /* CETimePickView.m */,
+				24BBC11124777F17000FB10A /* UIView+CETimeCategory.h */,
+				24BBC11224777F17000FB10A /* UIView+CETimeCategory.m */,
+			);
+			path = CETimePickView;
+			sourceTree = "<group>";
+		};
+		24BBC114247780B1000FB10A /* CELogEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				24BBC11524778125000FB10A /* NSArray+CEExtension.h */,
+				24BBC11624778125000FB10A /* NSArray+CEExtension.m */,
+				24BBC1182477814C000FB10A /* NSDictionary+CEExtension.h */,
+				24BBC1192477814C000FB10A /* NSDictionary+CEExtension.m */,
+			);
+			path = CELogEncoding;
+			sourceTree = "<group>";
+		};
+		24BBC11B24778473000FB10A /* CustomLib */ = {
+			isa = PBXGroup;
+			children = (
+				24BBC10A24777C7A000FB10A /* CETimePickView */,
+				24BBC114247780B1000FB10A /* CELogEncoding */,
+				24BBC0CF247770FB000FB10A /* Masonry */,
+			);
+			path = CustomLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24BBC08F24776F6C000FB10A /* CETimeSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BBC0BF24776F70000FB10A /* Build configuration list for PBXNativeTarget "CETimeSelector" */;
+			buildPhases = (
+				24BBC08C24776F6C000FB10A /* Sources */,
+				24BBC08D24776F6C000FB10A /* Frameworks */,
+				24BBC08E24776F6C000FB10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CETimeSelector;
+			productName = CETimeSelector;
+			productReference = 24BBC09024776F6C000FB10A /* CETimeSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24BBC0AA24776F70000FB10A /* CETimeSelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BBC0C224776F70000FB10A /* Build configuration list for PBXNativeTarget "CETimeSelectorTests" */;
+			buildPhases = (
+				24BBC0A724776F70000FB10A /* Sources */,
+				24BBC0A824776F70000FB10A /* Frameworks */,
+				24BBC0A924776F70000FB10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24BBC0AD24776F70000FB10A /* PBXTargetDependency */,
+			);
+			name = CETimeSelectorTests;
+			productName = CETimeSelectorTests;
+			productReference = 24BBC0AB24776F70000FB10A /* CETimeSelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24BBC0B524776F70000FB10A /* CETimeSelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BBC0C524776F70000FB10A /* Build configuration list for PBXNativeTarget "CETimeSelectorUITests" */;
+			buildPhases = (
+				24BBC0B224776F70000FB10A /* Sources */,
+				24BBC0B324776F70000FB10A /* Frameworks */,
+				24BBC0B424776F70000FB10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24BBC0B824776F70000FB10A /* PBXTargetDependency */,
+			);
+			name = CETimeSelectorUITests;
+			productName = CETimeSelectorUITests;
+			productReference = 24BBC0B624776F70000FB10A /* CETimeSelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24BBC08824776F6C000FB10A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = zhouzhongliang;
+				TargetAttributes = {
+					24BBC08F24776F6C000FB10A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					24BBC0AA24776F70000FB10A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 24BBC08F24776F6C000FB10A;
+					};
+					24BBC0B524776F70000FB10A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 24BBC08F24776F6C000FB10A;
+					};
+				};
+			};
+			buildConfigurationList = 24BBC08B24776F6C000FB10A /* Build configuration list for PBXProject "CETimeSelector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24BBC08724776F6C000FB10A;
+			productRefGroup = 24BBC09124776F6C000FB10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24BBC08F24776F6C000FB10A /* CETimeSelector */,
+				24BBC0AA24776F70000FB10A /* CETimeSelectorTests */,
+				24BBC0B524776F70000FB10A /* CETimeSelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24BBC08E24776F6C000FB10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BBC0A324776F6F000FB10A /* LaunchScreen.storyboard in Resources */,
+				24BBC0A024776F6F000FB10A /* Assets.xcassets in Resources */,
+				24BBC09E24776F6C000FB10A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BBC0A924776F70000FB10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BBC0B424776F70000FB10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24BBC08C24776F6C000FB10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BBC0F1247770FB000FB10A /* MASViewConstraint.m in Sources */,
+				24BBC11024777D33000FB10A /* CETimePickView.m in Sources */,
+				24BBC09B24776F6C000FB10A /* ViewController.m in Sources */,
+				24BBC0EC247770FB000FB10A /* MASConstraintMaker.m in Sources */,
+				24BBC09524776F6C000FB10A /* AppDelegate.m in Sources */,
+				24BBC0EA247770FB000FB10A /* ViewController+MASAdditions.m in Sources */,
+				24BBC0E9247770FB000FB10A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				24BBC0EB247770FB000FB10A /* MASCompositeConstraint.m in Sources */,
+				24BBC0A624776F6F000FB10A /* main.m in Sources */,
+				24BBC0ED247770FB000FB10A /* MASLayoutConstraint.m in Sources */,
+				24BBC11324777F17000FB10A /* UIView+CETimeCategory.m in Sources */,
+				24BBC0EF247770FB000FB10A /* View+MASAdditions.m in Sources */,
+				24BBC0EE247770FB000FB10A /* NSArray+MASAdditions.m in Sources */,
+				24BBC09824776F6C000FB10A /* SceneDelegate.m in Sources */,
+				24BBC0F2247770FB000FB10A /* MASViewAttribute.m in Sources */,
+				24BBC11A2477814C000FB10A /* NSDictionary+CEExtension.m in Sources */,
+				24BBC11724778125000FB10A /* NSArray+CEExtension.m in Sources */,
+				24BBC0F0247770FB000FB10A /* MASConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BBC0A724776F70000FB10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BBC0B024776F70000FB10A /* CETimeSelectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BBC0B224776F70000FB10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BBC0BB24776F70000FB10A /* CETimeSelectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24BBC0AD24776F70000FB10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24BBC08F24776F6C000FB10A /* CETimeSelector */;
+			targetProxy = 24BBC0AC24776F70000FB10A /* PBXContainerItemProxy */;
+		};
+		24BBC0B824776F70000FB10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24BBC08F24776F6C000FB10A /* CETimeSelector */;
+			targetProxy = 24BBC0B724776F70000FB10A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24BBC09C24776F6C000FB10A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24BBC09D24776F6C000FB10A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24BBC0A124776F6F000FB10A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24BBC0A224776F6F000FB10A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24BBC0BD24776F70000FB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24BBC0BE24776F70000FB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24BBC0C024776F70000FB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CETimeSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24BBC0C124776F70000FB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CETimeSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24BBC0C324776F70000FB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CETimeSelectorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CETimeSelector.app/CETimeSelector";
+			};
+			name = Debug;
+		};
+		24BBC0C424776F70000FB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CETimeSelectorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CETimeSelector.app/CETimeSelector";
+			};
+			name = Release;
+		};
+		24BBC0C624776F70000FB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CETimeSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CETimeSelector;
+			};
+			name = Debug;
+		};
+		24BBC0C724776F70000FB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CETimeSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.where.CETimeSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CETimeSelector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24BBC08B24776F6C000FB10A /* Build configuration list for PBXProject "CETimeSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BBC0BD24776F70000FB10A /* Debug */,
+				24BBC0BE24776F70000FB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BBC0BF24776F70000FB10A /* Build configuration list for PBXNativeTarget "CETimeSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BBC0C024776F70000FB10A /* Debug */,
+				24BBC0C124776F70000FB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BBC0C224776F70000FB10A /* Build configuration list for PBXNativeTarget "CETimeSelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BBC0C324776F70000FB10A /* Debug */,
+				24BBC0C424776F70000FB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BBC0C524776F70000FB10A /* Build configuration list for PBXNativeTarget "CETimeSelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BBC0C624776F70000FB10A /* Debug */,
+				24BBC0C724776F70000FB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24BBC08824776F6C000FB10A /* Project object */;
+}
