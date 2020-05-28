@@ -30,6 +30,7 @@
 		24BBC0F2247770FB000FB10A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC0E8247770FB000FB10A /* MASViewAttribute.m */; };
 		24BBC11724778125000FB10A /* NSArray+CEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC11624778125000FB10A /* NSArray+CEExtension.m */; };
 		24BBC11A2477814C000FB10A /* NSDictionary+CEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBC1192477814C000FB10A /* NSDictionary+CEExtension.m */; };
+		24BCBD47247FAD3D007C4E86 /* 时间选择器.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 24BCBD46247FAD3D007C4E86 /* 时间选择器.GIF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		24BBC11624778125000FB10A /* NSArray+CEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CEExtension.m"; sourceTree = "<group>"; };
 		24BBC1182477814C000FB10A /* NSDictionary+CEExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CEExtension.h"; sourceTree = "<group>"; };
 		24BBC1192477814C000FB10A /* NSDictionary+CEExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CEExtension.m"; sourceTree = "<group>"; };
+		24BCBD46247FAD3D007C4E86 /* 时间选择器.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "时间选择器.GIF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,11 +244,20 @@
 		24BBC11B24778473000FB10A /* CustomLib */ = {
 			isa = PBXGroup;
 			children = (
+				24BCBD45247FAD1B007C4E86 /* Preview */,
 				24AEAA4B247BC89800DE388D /* CETimePickView */,
 				24BBC114247780B1000FB10A /* CELogEncoding */,
 				24BBC0CF247770FB000FB10A /* Masonry */,
 			);
 			path = CustomLib;
+			sourceTree = "<group>";
+		};
+		24BCBD45247FAD1B007C4E86 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				24BCBD46247FAD3D007C4E86 /* 时间选择器.GIF */,
+			);
+			path = Preview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24BBC0A324776F6F000FB10A /* LaunchScreen.storyboard in Resources */,
+				24BCBD47247FAD3D007C4E86 /* 时间选择器.GIF in Resources */,
 				24BBC0A024776F6F000FB10A /* Assets.xcassets in Resources */,
 				24BBC09E24776F6C000FB10A /* Main.storyboard in Resources */,
 			);
